@@ -1,0 +1,56 @@
+@font-face{
+    font-family:westMecFont;
+    src: url("../fonts/Cabin-Bold-TTF.ttf")
+}
+body{
+    background-color:gray;
+    font-family:westMecFont;
+}
+#navbarNav{
+    display:flex;
+    justify-content:space-evenly;
+}
+.mainNav{
+    background-color:black;
+}
+.headerText{
+    font-size: 120%;
+}
+#headerText1{
+    color:orange;
+}
+#headerText2{
+    color:orange;
+}
+#headerText3{
+    color:orange;
+}
+#headerTitle{
+    color:orange;
+    align-items:center;
+    margin-top:.75%;
+    margin-bottom:.75%;
+}
+.mainGrid{
+    display:flex;
+    justify-content: space-evenly;
+}
+@media only screen and(max-width: 768px){
+    .mainGrid{
+        display:grid;
+    }
+}
+.card{
+    border-radius:15px;
+    background-color:darken($color: darkgrey, $amount: 8);
+}
+.card-img-top{
+    padding:2%;
+    border-radius:10px;
+}
+#coding3rdIMG{
+    height:50%;
+}
+.card-title{
+    color:orange;
+}
